@@ -1,7 +1,7 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
-name = "Forest's Macropad"
-product_name = "Forest's Macropad"
+name = "Forests Macropad"
+product_name = "Forests Macropad"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "Forest"
