@@ -10,8 +10,8 @@ usb_enable = false
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["GPIO_NUM_0", "GPIO_NUM_1", "GPIO_NUM_2"]
-output_pins = ["GPIO_NUM_3", "GPIO_NUM_4", "GPIO_NUM_5"]
+input_pins = ["gpio0", "gpio1", "gpio2"]
+output_pins = ["gpio3", "gpio4", "gpio5"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
