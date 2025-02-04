@@ -10,27 +10,20 @@ usb_enable = false
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+input_pins = ["GPIO0", "GPIO1", "GPIO2"]
+output_pins = ["GPIO3", "GPIO4", "GPIO5"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
-rows = 4
+rows = 3
 cols = 3
-layers = 2
+layers = 1
 keymap = [
     [
         ["A", "B", "C"],
         ["Kc1", "Kc2", "Kc3"],
         ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
-    ],
-    [
-        ["_", "TT(1)", "TG(2)"],
-        ["_", "_", "_"],
-        ["_", "_", "_"],
-        ["_", "_", "_"]
     ],
 ]
 
